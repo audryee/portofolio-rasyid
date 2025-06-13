@@ -1332,9 +1332,12 @@ section,
 }
 
 .contact .php-email-form {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  background-color: #ffffff; /* Atau warna lain yang kontras dengan latar */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal */
+  padding: 40px;
+  border-radius: 12px;
+  border: 2px solid var(--accent-color); /* Tambahan garis */
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 575px) {
@@ -1346,19 +1349,24 @@ section,
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: #ffffff;
+  color: #333; 
+  border: 2px solid #2f6cf0;
+  border-radius: 8px;
+  padding: 12px 15px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
+  background-color: #ffffff;
   border-color: var(--accent-color);
+  box-shadow: 0 0 8px rgba(0, 120, 255, 0.3);
+  outline: none;
 }
 
 .contact .php-email-form input[type=text]::placeholder,
