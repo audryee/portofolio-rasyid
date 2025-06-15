@@ -521,18 +521,12 @@ h6 {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
 .page-title {
   --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   color: var(--default-color);
@@ -567,9 +561,6 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
 section,
 .section {
   color: var(--default-color);
@@ -587,9 +578,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -621,9 +609,6 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   width: 100%;
   min-height: calc(100vh - 92px);
@@ -683,9 +668,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
 .about .container {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -757,9 +739,6 @@ section,
   font-size: 18px;
 }
 
-/*--------------------------------------------------------------
-# Resume Section
---------------------------------------------------------------*/
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -816,9 +795,6 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
@@ -868,9 +844,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
 .stats {
   position: relative;
   padding: 120px 0;
@@ -920,9 +893,6 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Section
---------------------------------------------------------------*/
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1018,9 +988,6 @@ section,
   bottom: 20px;
 }
 
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
 .pricing .pricing-item {
   border-bottom: 1px dashed color-mix(in srgb, var(--default-color), transparent 60%);
   width: 100%;
@@ -1040,9 +1007,6 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
@@ -1129,9 +1093,6 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
   position: relative;
@@ -1250,9 +1211,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
 .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -1292,11 +1250,11 @@ section,
 }
 
 .contact .php-email-form {
-  background-color: #ffffff; /* Atau warna lain yang kontras dengan latar */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal */
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   padding: 40px;
   border-radius: 12px;
-  border: 2px solid var(--accent-color); /* Tambahan garis */
+  border: 2px solid var(--accent-color);
   transition: all 0.3s ease;
 }
 
@@ -1348,9 +1306,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details Section
---------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1523,9 +1478,6 @@ section,
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
 .service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
